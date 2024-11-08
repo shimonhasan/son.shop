@@ -160,8 +160,6 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 15px ;
-    margin-bottom: 40px ;
-
 }
 
 .boxDecor {
@@ -405,3 +403,51 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.emailUpdateBar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.emailUpdateBar div {
+    height: 50%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emailUpdateBar p {
+    height: 70%;
+    width: 18%;
+    padding-top: 9px;
+    padding-right: 15px;
+    font-size: 17px;
+}
+
+#emailInfo {
+    height: 70%;
+    width: 40%;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-right: 7px;
+    border: 1px solid black;
+    background-color: #FFFFF3;
+}
+
+#EmailSignUpBtn {
+    height: 77%;
+    width: 40%;
+    font-size: 14px;
+    background-color: #030301;
+    color: #FFFFF3;
+    border: none;
+}
+
+#EmailSignUpBtn:hover {
+    color: #FF4365;
+}
+

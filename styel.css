@@ -385,13 +385,22 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFF3 ;
     font-size: 22px;
-    letter-spacing: 10px;
+    letter-spacing: 20px;
+}
+
+.footLogo a {
+    text-decoration: none;
+    color: #FFFFF3 ;
+}
+
+.footLogo a:hover {
+    color: #FF4365;
 }
 
 .copyright {
     color: #FFFFF3;
+    padding-top: 7px;
     display: flex;
     justify-content: center;
     align-items: center;

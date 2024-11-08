@@ -329,6 +329,10 @@ main {
     display: block;
 }
 
+.footContact a:hover {
+    color: #FF4365;
+}
+
 .footSon {
     height: 100%;
     width: 17%;

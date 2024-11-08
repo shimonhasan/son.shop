@@ -304,10 +304,6 @@ main {
 
       /* Footer */
       
-footer {
-
-} 
-
 .foot1 {
     height: 400px;
     background-color: #181511;
@@ -320,10 +316,8 @@ footer {
 }
 
 .footContact {
-    background-color: olive;
     height: 100%;
     padding-top: 10px;
-    display: block;
 }
 
 .footContact a {
@@ -332,7 +326,9 @@ footer {
     font-weight: normal;
     font-size: 14px;
     letter-spacing: normal;
+    display: block;
 }
+
 .footSon {
     height: 100%;
     width: 17%;

@@ -380,4 +380,19 @@ main {
     background-color: #0C0A08;
 }
 
+.footLogo {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFF3 ;
+    font-size: 22px;
+    letter-spacing: 10px;
+}
 
+.copyright {
+    color: #FFFFF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

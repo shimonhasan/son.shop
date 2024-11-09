@@ -112,6 +112,13 @@ body {
   font-family: Faculty Glyphic;
 }
 
+#nav2Hide {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav2:hover {
   border-bottom: 1.5px solid #ff4365;
   color: #ff4365;
@@ -148,9 +155,9 @@ main {
 
 .mainPage {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  gap: 19px;
+  flex-grow: 1;
+  justify-content: space-between;
   margin-top: 15px;
 }
 
@@ -160,7 +167,7 @@ main {
 
 .box {
   height: 520px;
-  width: 250px;
+  width: 241px;
 }
 
 /* inside box content  */
@@ -451,4 +458,32 @@ main {
 }
 
 @media (max-width: 1126px) {
+  .navbar {
+    height: 80px;
+  }
+  .nav {
+    font-size: 18px;
+  }
+  .logo {
+    font-size: 35px;
+  }
+  /* #searchDiv {
+    width: 60%;
+  } */
+  #searchBar {
+    height: 30px;
+    width: 80%;
+    font-size: 14px;
+    padding-left: 18px;
+  }
+  #searchIcon {
+    height: 30px;
+    width: 30px;
+  }
+  .nav2 {
+    font-size: 12px;
+  }
+  #nav2Hide {
+    display: none;
+  }
 }

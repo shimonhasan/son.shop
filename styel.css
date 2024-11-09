@@ -150,17 +150,17 @@ main {
 .mainPage {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin-top: 15px;
 }
 
 .boxDecor {
   text-decoration: none;
 }
+
 .box {
   height: 520px;
   width: 250px;
-  margin-bottom: 40px;
+  border: 1px solid black;
 }
 
 .imgHolder1 {
@@ -440,4 +440,7 @@ main {
 
 #EmailSignUpBtn:hover {
   color: #ff4365;
+}
+
+@media (max-width) {
 }
